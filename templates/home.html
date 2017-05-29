@@ -1,0 +1,79 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DNA3</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <link href="{% static 'css/base.css' %}" rel="stylesheet">
+
+</head>
+<body>
+<div align="center">
+    <img class="img-fluid logo" src="{% static 'img/logo.png' %}">
+</div>
+
+
+<h1 class="coming">Coming soon</h1>
+
+<div align="center">
+    <div class="progress" >
+        <img class="img-fluid" src="{% static 'img/progress.gif' %}" >
+    </div>
+</div>
+<div align="center">
+    <div class="buttons">
+        <p class="catalogues">CATALOGUES</p>
+        <a href="{% static 'img/deu.pdf' %}" target="_blank" class="deu_img">
+           <img src="{% static 'img/icon_1.png' %}">
+        </a>
+        <a href="{% static 'img/eng.pdf' %}" target="_blank" class="eng_img">
+            <img src="{% static 'img/icon_2.png' %}">
+        </a>
+        <br>
+        <span class="deutch" >Deutch</span>
+        <span class="english">English</span>
+    </div>
+</div>
+
+
+
+<p class="befirst">Be first to see</p>
+
+{% if notification %}
+    <p class="notification">
+        {{ notification }}
+    </p>
+{% else %}
+    <div align="center">
+        <form method="post" class="mailform" action="">
+        {% csrf_token %}
+        <div class="input-group">
+            <input type="text"
+                   placeholder="  Type your email here"
+                   name="mail"
+                   class="inputtext">
+
+            <span class="input-group-btn">
+                <input type="submit" class="btn btn-default inputbtn" value=" Notify me!">
+            </span>
+        </div>
+    </form>
+    </div>
+{% endif %}
+
+    <p class="dnamail">e-mail: info@dna3.design</p>
+    <p class="displayretail">
+        <a href="http://displaytoretail.com" target="_blank">displaytoretail.com</a>
+    </p>
+
+
+</body>
+</html>
+

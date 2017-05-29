@@ -1,0 +1,464 @@
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	color: #353435;
+	font-family: "Montserrat Light", Montserrat, sans-serif;
+}
+::-moz-placeholder { /* Firefox 19+ */
+	color: #353435;
+	font-family: "Montserrat Light", Montserrat, sans-serif;
+}
+:-ms-input-placeholder { /* IE 10+ */
+	color: #353435;
+	font-family: "Montserrat Light", Montserrat, sans-serif;
+}
+:-moz-placeholder { /* Firefox 18- */
+	color: #353435;
+	font-family: "Montserrat Light", Montserrat, sans-serif;
+}
+
+
+
+body {
+	background-color: #070708;
+}
+
+.row{
+    margin-left: 0 !important;
+}
+
+.progress{
+    background-color: #070708;
+}
+
+.logo{
+    align-self: center;
+}
+
+.inputbtn{
+    margin-right: 15px;
+    padding:5px;
+    font-family: 'Montserrat Light', Montserrat, sans-serif;
+    border-radius: 0px 21px 21px 0px;
+    border: none;
+    background-image: linear-gradient(318deg, #8c6950, #d2976e 39%, #8a5f49 81%, #a67f60);
+    box-shadow: inset -2px -2px 4px 0 #32231a, inset 2px 2px 2px 0 #ce9975, inset 1px 1px 1px 0 #75503c;
+}
+
+.inputbtn:hover{
+    margin-right: 15px;
+    padding:5px;
+    font-family: 'Montserrat Light', Montserrat, sans-serif;
+    border-radius: 0px 21px 21px 0px;
+    border: none;
+    cursor: pointer;
+    background-image: linear-gradient(318deg, #eeb083, #e0a67f 39%, #bc7d5c 81%, #c49671);
+    box-shadow: inset -2px -2px 4px 0 #32231a, inset 2px 2px 2px 0 #ddb59a, inset 1px 1px 1px 0 #75503c;
+}
+
+.inputbtn:active{
+    margin-right: 15px;
+    padding:5px;
+    font-family: 'Montserrat Light', Montserrat, sans-serif;
+    border-radius: 0px 21px 21px 0px;
+    border: none;
+    background-image: linear-gradient(318deg, #9b6e4f 2%, #dc9360 40%, #bd7854 81%, #a77852 98%);
+    box-shadow: inset -2px -2px 4px 0 #32231a, inset 2px 2px 2px 0 #ddb59a, inset 1px 1px 1px 0 #75503c;
+}
+
+.inputtext{
+    background-color: #a6a6a6;
+    font-family: 'Montserrat-Regular', Montserrat, sans-serif;
+    border-radius: 21px 0px 0px 21px;
+    box-shadow: inset 3px 0 5px 0 rgba(0, 0, 0, 0.5);
+    border: none;
+    color: black;
+    width: 100%;
+    margin-left: 15px;
+}
+
+.coming{
+    font-family: "Montserrat-Regular", Montserrat, sans-serif;
+    color:#9C6648;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+
+.befirst{
+    font-family: "Montserrat-Regular", Montserrat, sans-serif;
+    color: #777;
+    text-align: center;
+}
+
+.notification{
+    font-family: "Montserrat-Regular", Montserrat, sans-serif;
+    color: #777;
+    text-align: center;
+}
+
+.dnamail{
+    color: #CF956D;
+    font-family:"Montserrat-Medium", Montserrat, sans-serif;
+    text-align: center;
+}
+
+.displayretail{
+    font-family:"Montserrat-Medium", Montserrat, sans-serif;
+    text-align: center !important;
+    line-height: 28px;
+}
+
+.displayretail a{
+    text-decoration: underline;
+    color: #B0754D;
+}
+
+.catalogues{
+    color:#A9A8AB
+}
+.deutch{
+    color:#BA8D68
+}
+
+.english{
+    color:#AC7453
+}
+
+@media screen and (min-width:751px){
+    .logo{
+        height: 55vh;
+        margin-bottom: 3vh;
+        margin-top: 2vh;
+        margin-left: 15px;
+    }
+
+    .progress{
+        height: 24px;
+        width: 55vw;
+        margin-bottom: 5vh;
+    }
+
+    .coming{
+        font-size:30px;
+    }
+
+
+    .befirst{
+        font-size:20px;
+    }
+
+    .notification{
+        font-size:18px;
+    }
+    .mailform{
+        width: 50vw;
+    }
+    .inputtext{
+        font-size: 19px;
+    }
+
+
+    .inputbtn{
+        height: 28px;
+        font-size: 18px;
+        width: 121px;
+    }
+
+
+    .dnamail{
+        font-size:28px;
+        margin-top: 2vh;
+    }
+
+    .displayretail{
+        font-size:28px;
+    }
+
+
+    ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	font-size: 19px;
+    }
+
+    ::-moz-placeholder { /* Firefox 19+ */
+	    font-size: 19px;
+    }
+
+    :-ms-input-placeholder { /* IE 10+ */
+        font-size: 19px;
+    }
+
+    :-moz-placeholder { /* Firefox 18- */
+        font-size: 19px;
+    }
+
+    .catalogues{
+        position: fixed;
+        right:2vw;
+        top: 34vh;
+    }
+    .deu_img{
+        position: fixed;
+        right:5.5vw;
+        top: 39vh;
+    }
+    .deutch{
+        position: fixed;
+        right:4.5vw;
+        top: 44vh;
+    }
+    .eng_img{
+        position: fixed;
+        right:5.5vw;
+        top: 49vh;
+    }
+    .english{
+        position: fixed;
+        right:4.5vw;
+        top: 54vh;
+    }
+}
+
+@media screen and (max-width:750px){
+    .logo{
+        height: 60vw;
+        margin-bottom: 10vh;
+        margin-top: 2vh;
+        margin-left: 15px;
+    }
+
+    .progress{
+        height: 24px;
+        width: 80vw;
+        margin-bottom: 5vh;
+    }
+
+    .coming{
+        font-size:28px;
+    }
+
+
+    .befirst{
+        font-size:20px;
+    }
+
+    .notification{
+        font-size:18px;
+    }
+    .mailform{
+        width: 70vw;
+    }
+    .inputtext{
+        font-size:19px;
+    }
+
+
+    .inputbtn{
+        height:28px;
+        font-size:18px;
+        width:121px;
+    }
+
+
+    .dnamail{
+        font-size:28px;
+        margin-top: 7vh;
+    }
+
+    .displayretail{
+        font-size:28px;
+    }
+
+    .buttons img{
+        width: 100px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .catalogues{
+        font-size: 40px;
+    }
+
+    .deutch, .english{
+        font-size: 40px;
+        margin: 10px;
+    }
+
+    ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	font-size: 19px;
+    }
+
+    ::-moz-placeholder { /* Firefox 19+ */
+	    font-size: 19px;
+    }
+
+    :-ms-input-placeholder { /* IE 10+ */
+        font-size: 19px;
+    }
+
+    :-moz-placeholder { /* Firefox 18- */
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-device-width:750px){
+    .logo{
+        height: 37vh;
+        margin-bottom: 5vh;
+        margin-top: 2vh;
+        margin-left: 0;
+    }
+
+    .progress{
+        height: 32px;
+        width: 80vw;
+        margin-bottom: 5vh;
+    }
+
+    .coming{
+        font-size:60px;
+    }
+
+
+    .befirst{
+        font-size:50px;
+    }
+
+    .notification{
+        font-size:18px;
+    }
+
+    .mailform{
+        width: 75vw;
+    }
+
+    .inputtext{
+        font-size: 33px;
+    }
+
+
+    .inputbtn{
+        height: 28px;
+        font-size: 30px;
+        width: 180px;
+    }
+
+
+    .dnamail{
+        font-size:55px;
+        margin-top: 5vh;
+    }
+
+    .displayretail{
+        font-size:55px;
+        margin-top: 3vh;
+    }
+
+    .buttons img{
+        width: 100px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .catalogues{
+        font-size: 40px;
+    }
+
+    .deutch, .english{
+        font-size: 40px;
+        margin: 10px;
+    }
+
+    ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	font-size: 35px;
+    }
+
+    ::-moz-placeholder { /* Firefox 19+ */
+	    font-size: 35px;
+    }
+
+    :-ms-input-placeholder { /* IE 10+ */
+        font-size: 35px;
+    }
+
+    :-moz-placeholder { /* Firefox 18- */
+        font-size: 35px;
+    }
+
+    .catalogues, .deu_img, .deutch, .eng_img, .english{
+        position: relative;
+        right: 0;
+        top: 0;
+    }
+}
+
+@media screen and (max-device-width:750px) and (orientation:landscape){
+    .logo{
+        height: 80vh;
+        margin-bottom: 3vh;
+        margin-top: 2vh;
+        margin-left: 0;
+    }
+
+    .progress{
+        height: 32px;
+        width: 80vw;
+        margin-bottom: 10vh;
+    }
+
+    .coming{
+        font-size:60px;
+    }
+
+
+    .befirst{
+        font-size:50px;
+    }
+
+    .notification{
+        font-size:18px;
+    }
+
+    .mailform{
+        width: 75vw;
+    }
+
+    .inputtext{
+        font-size: 33px;
+    }
+
+
+    .inputbtn{
+        height: 28px;
+        font-size: 30px;
+        width: 180px;
+    }
+
+
+    .dnamail{
+        font-size:55px;
+        margin-top: 15vh;
+
+    }
+
+    .displayretail{
+        font-size:28px;
+        margin-top: 5vh;
+        padding-bottom: 15px;
+    }
+
+
+
+    ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	font-size: 35px;
+    }
+
+    ::-moz-placeholder { /* Firefox 19+ */
+	    font-size: 35px;
+    }
+
+    :-ms-input-placeholder { /* IE 10+ */
+        font-size: 35px;
+    }
+
+    :-moz-placeholder { /* Firefox 18- */
+        font-size: 35px;
+    }
+}
